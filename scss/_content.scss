@@ -1,0 +1,75 @@
+.head{
+	color: #F63;
+	font-family: "Neucha";
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: $w ;
+}
+
+
+.footprints {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+.footprints::after{
+	background: url(../images/Shape-5.png) ;
+	@include pseudo-left($h, $w, 0, 0);
+    transform: rotate(180deg);
+}
+
+
+
+.footprints::before{
+	background: url(../images/Shape-5.png) ;
+	@include pseudo-right($h, $w, 0, 0);
+    transform: rotate(180deg);
+}
+
+
+.small-footprints {
+	display: none;
+}
+
+@media (max-width:945px) {
+.footprints {
+	font-size: 30px;
+}
+}
+
+@media (max-width:490px) {
+.footprints {
+	display: none;
+}
+.small-footprints {
+	padding: 0 30px;
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+.small-footprints::after{
+	background: url(../images/Shape-35.png) ;
+	@include pseudo-left(21px, 21px, 0, 0);
+	transform: rotate(180deg);
+}
+.small-footprints::before{
+	background: url(../images/Shape-35.png) ;
+	@include pseudo-right(21px, 21px, 0, 0);
+	transform: rotate(180deg);
+}
+}
+
+@media (max-width:360px) {
+.footprints {
+	font-size: 10px;
+}
+.head {
+	margin-bottom: 20px;
+}
+}

@@ -1,0 +1,68 @@
+.wrapper-about {
+	font-family: "Meiryo";
+	font-weight: 400;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.illustration {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	width: 22%;
+}
+.description {
+	float:left;
+	width:36.5%;
+	color: #000;	
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+.origin {
+	font-family: "Meiryo";
+	font-weight: 400;
+	color: #C63;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+@media (max-width:945px) {
+.wrapper-about {
+	.description {
+	float:none;
+	width:auto;
+}	
+}	
+}
+
+@media (max-width:900px) {
+.wrapper-about {
+	margin-bottom: 10px;
+	text-align: center;
+.illustration {
+	margin: 0 auto;
+	float: none;
+}	
+}
+}
+
+@media (max-width:590px) {
+.big-picture,.illustration {
+	img{
+	display:block;
+	margin:0 auto;
+	height: auto;
+	width: 80%;
+}
+}
+}
+
+@media (max-width:409px) {
+.wrapper-about {
+.illustration {
+	width: 50%;
+}
+}
+}

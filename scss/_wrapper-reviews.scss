@@ -1,0 +1,69 @@
+.reviews-box {
+	width: 300px;
+	float: left;
+}
+.reviews-citi {
+	width: 300px;
+.illustration-reviews {
+	float: left;
+}
+.cite-author-name {
+	float: left;
+	margin: 26px 0 0 20px;
+.site {
+    color: #ae8383;
+}
+}
+}
+.cat-reviews  {
+	float: left;
+	width: 100%;
+img {
+	margin: 0 auto;
+	display: block;
+}
+}
+blockquote {
+	display: block;
+}
+
+@media (max-width:945px) {
+.reviews-box {
+	float: none;
+	margin: 0 auto;
+}
+.revievs-kotan-box {
+	img {
+	width: 60%;
+	height: auto;
+}
+}
+
+.reviews-box {
+	width: auto;
+	blockquote {
+	margin-bottom: 10px;			
+}		
+}
+.reviews-citi {
+	float: none;
+	width: auto;	
+	margin-bottom: 10px;
+	text-align: center;	
+.illustration-reviews {
+	float: none;
+}
+.cite-author-name {
+	float: none;			
+}		
+}
+}
+
+@media (max-width:690px) {
+.cat-reviews {
+	img {
+	width: 60%;
+	height: auto;
+}
+}
+}

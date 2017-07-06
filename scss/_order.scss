@@ -1,0 +1,49 @@
+.order {
+	text-align: center;
+	margin-bottom: 100px;
+}
+.order-expected{
+	color: #EC4C17;
+    font-family: "Neucha";
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    
+}
+.order-recording {
+	font: 30px "Neucha", Arial, Helvetica, sans-serif;
+    margin: 0 0 14px;
+    display: block;
+    text-align: center;
+}
+.order-description {
+	display: block;
+    margin: ($o) 32px;
+    width: 635px;
+    text-align: center;
+}
+.button-order {
+    display: inline-block;
+    max-width: 298px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+@media (max-width:945px) {
+.order {
+    margin-bottom: 20px;
+}
+}
+
+@media (max-width:690px) {
+ .order-description {
+    width: auto;
+}
+.order-expected {
+    font-size: 20px;
+}
+.order-recording {
+    font-size: 15px;
+}
+}

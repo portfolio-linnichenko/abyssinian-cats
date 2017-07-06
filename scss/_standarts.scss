@@ -1,0 +1,42 @@
+.standarts-section {
+	float: left;
+	width: 328px;
+	color: #050505;
+	font-family: "Meiryo";
+	font-size: 16px;
+	font-weight: 700;
+	font-weight: 400;
+	float:left;
+p {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+span {
+	font-weight: bold;
+}
+}
+}
+.standarts-cat {
+	float:left;
+}
+
+@media (max-width: 971px) {
+.standarts-section {
+    width: auto;
+}
+
+@media (max-width: 590px) {
+.standarts-cat {
+	& img {
+	width: 50%;
+	display:block;
+	margin:0 auto;
+	height: auto;
+}
+}
+}
+.standarts-cat {
+	float: none;
+	text-align: center;
+}
+}

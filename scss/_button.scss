@@ -1,0 +1,12 @@
+.button {
+	color: #FEFEFE;
+    font-family: "Neucha";
+    font-size: 30px;
+    font-weight: 400;
+    background-color: #ED145B;
+    cursor: pointer;
+    border-radius: 10px;
+    &:hover {
+	background: #D71353;
+}
+}

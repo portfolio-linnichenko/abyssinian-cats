@@ -1,0 +1,39 @@
+@mixin pseudo-left ($h, $w, $r, $t) {
+    content: "";
+    position: absolute;
+    height:($h);
+    width:($w);
+    left:($r) ;
+    top:($t) ;
+    z-index: 1;
+}
+
+
+@mixin pseudo-right ($h, $w, $r, $t) {
+    content: "";
+    position: absolute;
+    height:($h);
+    width:($w);
+    right:($r) ;
+    top:($t) ;
+    z-index:1;
+}
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; 
+    display: table; 
+  }
+  &:after {
+    clear: both;
+  }
+}
+@mixin mother ($n, $wi, $ri, $to) {
+    content: "";
+    position: absolute;
+    height:($n);
+    width:($wi);
+    left:($ri) ;
+    top:($to) ;
+    z-index: 1;
+}
