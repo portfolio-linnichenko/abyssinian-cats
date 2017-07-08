@@ -224,7 +224,7 @@ a {
 
 .head {
   color: #F63;
-  font-family: "Neucha";
+  font-family: "Neucha", Arial, Helvetica, sans-serif;
   font-size: 36px;
   font-weight: 400;
   text-align: center;
@@ -345,11 +345,10 @@ a {
 }
 
 .origin {
-  font-family: "Meiryo";
+  font-family: "Meiryo", Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #C63;
   font-size: 18px;
-  line-height: 2.2;
   font-weight: bold;
 }
 
@@ -398,7 +397,7 @@ a {
 .benefits .column-benefits {
   float: left;
   width: 33%;
-  font-family: "Meiryo";
+  font-family: "Meiryo", Arial, Helvetica, sans-serif;
 }
 
 .benefits .column-benefits .check {
@@ -453,12 +452,10 @@ a {
 }
 
 .standarts-section {
-  float: left;
   width: 328px;
   color: #050505;
-  font-family: "Meiryo";
+  font-family: "Meiryo", Arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: 700;
   font-weight: 400;
   float: left;
 }
@@ -506,7 +503,7 @@ a {
 
 .pedigree .parents {
   color: #000;
-  font-family: "Myriad Pro";
+  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 700;
   font-style: italic;
@@ -577,7 +574,7 @@ a {
 
 .button {
   color: #FEFEFE;
-  font-family: "Neucha";
+  font-family: "Neucha", Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 400;
   background-color: #ED145B;
@@ -1125,7 +1122,7 @@ input {
 }
 
 body {
-  font-family: "Neucha";
+  font-family: "Neucha", Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
