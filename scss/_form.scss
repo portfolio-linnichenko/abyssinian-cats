@@ -74,7 +74,7 @@ p {
 }
 .wrapper-contacts-tel {
 	float: left;
-	font: bold 16px "Neucha";
+	font: bold 16px "Neucha", Arial, Helvetica, sans-serif;
 	a {
 	color:#000;
 }
@@ -113,6 +113,7 @@ p {
 	width: auto;
 	float: none;
 	margin-left: 0;
+	margin-bottom: 70px;
 .form-cat-two {
 	margin-bottom: 20px;
 }		

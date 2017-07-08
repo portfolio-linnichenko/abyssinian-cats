@@ -884,7 +884,7 @@ input {
 
 .wrapper-contacts-tel {
   float: left;
-  font: bold 16px "Neucha";
+  font: bold 16px "Neucha", Arial, Helvetica, sans-serif;
 }
 
 .wrapper-contacts-tel a {
@@ -919,6 +919,7 @@ input {
     width: auto;
     float: none;
     margin-left: 0;
+    margin-bottom: 70px;
   }
   .form-home-wrapper .rules-contacts .form-cat-two {
     margin-bottom: 20px;
