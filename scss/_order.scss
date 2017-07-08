@@ -4,7 +4,7 @@
 }
 .order-expected{
 	color: #EC4C17;
-    font-family: "Neucha";
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 42px;
     font-weight: 400;
     text-align: center;
@@ -23,27 +23,10 @@
     width: 635px;
     text-align: center;
     line-height: 1.2;
+    font-size: 16px;
 }
 .button-order {
     display: inline-block;
     max-width: 298px;
     padding:18px 10px 18px 10px;
-}
-
-@media (max-width:945px) {
-.order {
-    margin-bottom: 20px;
-}
-}
-
-@media (max-width:690px) {
- .order-description {
-    width: auto;
-}
-.order-expected {
-    font-size: 20px;
-}
-.order-recording {
-    font-size: 15px;
-}
 }

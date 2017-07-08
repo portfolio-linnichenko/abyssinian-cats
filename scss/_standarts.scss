@@ -18,24 +18,3 @@ span {
 .standarts-cat {
 	float:left;
 }
-
-@media (max-width: 971px) {
-.standarts-section {
-    width: auto;
-}
-
-@media (max-width: 590px) {
-.standarts-cat {
-	& img {
-	width: 50%;
-	display:block;
-	margin:0 auto;
-	height: auto;
-}
-}
-}
-.standarts-cat {
-	float: none;
-	text-align: center;
-}
-}

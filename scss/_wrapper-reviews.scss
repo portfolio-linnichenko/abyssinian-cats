@@ -26,45 +26,5 @@ img {
 blockquote {
 	display: block;
 	line-height: 1.2;
-}
-
-@media (max-width:945px) {
-.reviews-box {
-	float: none;
-	margin: 0 auto;
-}
-.revievs-kotan-box {
-	img {
-	width: 60%;
-	height: auto;
-}
-}
-
-.reviews-box {
-	width: auto;
-	blockquote {
-	margin-bottom: 10px;			
-}		
-}
-.reviews-citi {
-	float: none;
-	width: auto;	
-	margin-bottom: 10px;
-	text-align: center;	
-.illustration-reviews {
-	float: none;
-}
-.cite-author-name {
-	float: none;			
-}		
-}
-}
-
-@media (max-width:690px) {
-.cat-reviews {
-	img {
-	width: 60%;
-	height: auto;
-}
-}
+	font-size: 16px;
 }
