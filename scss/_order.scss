@@ -22,12 +22,12 @@
     margin: ($o) 32px;
     width: 635px;
     text-align: center;
+    line-height: 1.2;
 }
 .button-order {
     display: inline-block;
     max-width: 298px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding:18px 10px 18px 10px;
 }
 
 @media (max-width:945px) {

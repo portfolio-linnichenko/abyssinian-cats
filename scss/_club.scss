@@ -44,7 +44,8 @@ input {
 }
 
 @media (max-width:960px) {
-.in-club {
+.club {
+	.in-club {
 	display: inline-block;
 	text-align: justify;
 	width: 100%;
@@ -59,13 +60,11 @@ input {
 }
 }
 }
-    img {
-    	height: auto;
+}
+    .box-img,.img-very-small {
     	display: none;
 }
-.img-small {
-		display: block;
-}
+
 }
 .cat-club {
 	margin: 0 auto;
@@ -79,14 +78,16 @@ input {
 }
 
 @media (max-width:440px) {
+.club {
 .in-club {
 .club-box {
 	a {
 .img-very-small {
 	display: block;
 }
-.img-small {
+.img-small,.box-img {
 	display: none;
+}
 }
 }
 }
