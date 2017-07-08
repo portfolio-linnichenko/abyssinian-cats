@@ -94,6 +94,7 @@ a {
   }
   .header .main-unit {
     text-align: center;
+    margin-top: 20px;
   }
   .header .main-unit .subject {
     font-size: 62px;
