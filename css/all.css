@@ -401,6 +401,10 @@ input {
   margin-top: 0;
 }
 
+.form-home-wrapper {
+  margin-bottom: 48px;
+}
+
 .form-home-wrapper .wrapper-form {
   float: left;
   max-width: 290px;
